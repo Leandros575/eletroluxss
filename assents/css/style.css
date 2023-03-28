@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+.principal .container img { 
+    padding: 2px;
+}
+
+
 body .principal { 
     background-color: #9F0503;
     align-items: center;
@@ -17,16 +22,21 @@ body .principal {
 
 .principal .container h1 { 
     color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0px;
 }
 
 .principal .container p  { 
     color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0px;
 }
 
 
 .principal .container-1 { 
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .principal .container-1 input { 
@@ -34,11 +44,28 @@ body .principal {
     padding: 14px 14px 14px 14px;
     margin: 10px;
     border-radius: 25px;
-    
+    border: none;
+    text-align: center;
 }
+
+.principal .container-1 .iconuser{
+    position: absolute;
+    padding: 24px 0px 0px 30px;
+}
+
+.principal .container-1 .iconpass { 
+    position: absolute;
+    padding: 87px 0px 0px 30px;
+}
+
 
 .principal .container-1 a { 
     text-align: end;
+    color: #fff;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin: 0 15px;
 }
 
 .principal footer { 
@@ -48,26 +75,188 @@ body .principal {
         text-align: center;
 }
 
+.principal .btn { 
+    width: 60%;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
 
-.principal 
+.principal p { 
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-size: 12px;  
+}
+
+
+.principal footer { 
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
 
 .principal footer p {
     color: #fff;
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
 }
 
 
 .principal footer a { 
     text-decoration: none;
     color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin: 0 5px;
 }
 
 /*html 2 cadastro */ 
 
+body{
+    margin: 0;
+    background-color: #9F0503;
+}
 
 .texto { 
     margin:  0;
     width: 360px;
     height: 740px;
-    background-color: #9F0503;
+}
+
+.texto .container { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.texto .container h1 { 
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.texto .container p { 
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.texto .container-1 {
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+     text-align: center;
+}
+
+
+.texto .container-1 .iconuser { 
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.texto .container-1 .iconuser input { 
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.texto .container-1 .iconuser .fa-solid {
+    position: absolute;
+    padding: 12px 0px 0px 15px;
+}
+
+.texto .container-1 .iconemail { 
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.texto .container-1 .iconemail input { 
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.texto .container-1 .iconemail .fa-solid {
+    position: absolute;
+    padding: 12px 0px 0px 15px;
+}
+
+
+.texto .container-1 .icontelefone { 
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.texto .container-1 .icontelefone input { 
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.texto .container-1 .icontelefone .fa-solid {
+    position: absolute;
+    padding: 12px 0px 0px 15px;
+}
+
+
+.texto .container-1 .iconpass { 
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.texto .container-1 .iconpass input { 
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.texto .container-1 .iconpass .fa-solid {
+    position: absolute;
+    padding: 12px 0px 0px 15px;
+}
+
+
+.texto .container-1 .iconconfpass { 
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.texto .container-1 .iconconfpass input { 
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.texto .container-1 .iconconfpass .fa-solid {
+    position: absolute;
+    padding: 12px 0px 0px 15px;
+}
+
+
+
+
+.texto footer { 
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
 }
