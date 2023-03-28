@@ -1,0 +1,73 @@
+body { 
+    margin: 0;
+}
+
+body .principal { 
+    background-color: #9F0503;
+    align-items: center;
+    text-align: center;
+}
+
+.principal { 
+    width: 360px;
+    height: 740px;
+    margin:  0 auto;
+}
+
+
+.principal .container h1 { 
+    color: #fff;
+}
+
+.principal .container p  { 
+    color: #fff;
+}
+
+
+.principal .container-1 { 
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .container-1 input { 
+    width: 85%;
+    padding: 14px 14px 14px 14px;
+    margin: 10px;
+    border-radius: 25px;
+    
+}
+
+.principal .container-1 a { 
+    text-align: end;
+}
+
+.principal footer { 
+    bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+}
+
+
+.principal 
+
+.principal footer p {
+    color: #fff;
+
+}
+
+
+.principal footer a { 
+    text-decoration: none;
+    color: black;
+}
+
+/*html 2 cadastro */ 
+
+
+.texto { 
+    margin:  0;
+    width: 360px;
+    height: 740px;
+    background-color: #9F0503;
+}
